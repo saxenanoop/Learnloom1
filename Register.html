@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+  <title>Resouces</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="top-section-wrapper">
+    <div class="top-section">
+      <div class=" actual-top-content">
+
+        <div class="intro-buttons">
+          <a href="#" class="our-btn utility-mr">Home</a>
+          <a href="#" class="our-btn our-btn--outline utility-mr">COURSES</a>
+          <a href="Register.html" class="our-btn our-btn--outline utility-mr"><strong>REGISTER</strong></a>
+          <a href="#" class="our-btn our-btn--outline utility-mr">BLOG</a>
+          <p class="intro-text">Get Enrolled for the COURSES</p>
+
+          <form action="/submit_registration" method="post">
+            <!-- First Name -->
+            <input type="text" name="firstname" placeholder="First Name" required>
+
+            <!-- Last Name -->
+            <input type="text" name="lastname" placeholder="Last Name" required>
+
+            <!-- Email -->
+            <input type="email" name="email" placeholder="Email" required>
+
+            <!-- Phone Number -->
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+
+            <!-- Select Course -->
+            <select name="course" required>
+              <option value="" disabled selected>Select Course</option>
+              <option value="course1">Course 1</option>
+              <option value="course2">Course 2</option>
+              <!-- Add more course options as needed -->
+            </select>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit</button>
+
+            <!-- Payment Button -->
+            <button type="button" class="payment-btn" onclick="redirectToPaymentGateway()">Pay Now</button>
+          </form>
+
+
+
+          <div class="circle"></div>
+          <div class="circle-two"></div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+    <h3>Images of the outcomes area</h3>
+  </div>
+  </div>
+</body>
+
+</html>
